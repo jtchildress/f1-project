@@ -1,5 +1,11 @@
+body {
+    background-color: crimson;
+    color: black;
+    padding: auto;
+    font-family: Arial, sans-serif;
+}
 h1 {
-    color: white;
+    color: black;
     padding: 10px;
     border: 2px solid black;
     text-align: center;
