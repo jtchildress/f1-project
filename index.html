@@ -18,33 +18,16 @@
 <body>
 <header>
 <h1>2025 Formula One Championship</h1>
-</header>
-<nav style="background:#222;padding:0 0 12px 0;">
-    <ul style="list-style:none;margin:0;padding:0;display:flex;gap:20px;align-items:center;">
-        <li style="position:relative;">
-            <button style="background:none;border:none;color:#fff;font-size:1em;cursor:pointer;padding:10px 16px;" aria-haspopup="true" aria-expanded="false" id="menu-btn">Menu ▼</button>
-            <ul id="dropdown" style="display:none;position:absolute;top:100%;left:0;background:#333;list-style:none;margin:0;padding:0;min-width:180px;box-shadow:0 2px 8px #0006;z-index:10;">
-                <li><a href="#races" style="display:block;padding:10px 18px;color:#fff;text-decoration:none;">Races</a></li>
-                <li><a href="#about" style="display:block;padding:10px 18px;color:#fff;text-decoration:none;">About</a></li>
-                <li><a href="#regulations" style="display:block;padding:10px 18px;color:#fff;text-decoration:none;">2026 Regulations</a></li>
-            </ul>
-        </li>
-    </ul>
-    <script>
-        const btn = document.getElementById('menu-btn');
-        const dd = document.getElementById('dropdown');
-        btn.addEventListener('click', function(e){
-            e.stopPropagation();
-            const open = dd.style.display === 'block';
-            dd.style.display = open ? 'none' : 'block';
-            btn.setAttribute('aria-expanded', !open);
-        });
-        document.addEventListener('click', function(){
-            dd.style.display = 'none';
-            btn.setAttribute('aria-expanded', 'false');
-        });
-        dd.addEventListener('click', e => e.stopPropagation());
-    </script>
+<header>
+            <nav aria-label="Main Navigation">
+                <ul>
+                    <li><a href="#about" accesskey="a">About</a></li>
+                    <li><a href="#schedule" accesskey="s">Schedule</a></li>
+                    <li><a href="#contact" accesskey="c">Contact</a></li>
+                </ul>
+            </nav>
+            <h1 tabindex="0">Chinese Grand Prix</h1>
+        </header>
 </nav>
 <nav>
     <div class="galler-container" style="position:relative;display:flex;align-items:center;gap:12px;">
@@ -223,7 +206,21 @@
     <li>Qatar Grand Prix - Nov 27-29</li>
     <li>Abu Dhabi Grand Prix - Dec 4-6</li>
 </ul>
-</main>
-
-</body>
-</html>
+<section id="contact">
+                <h2 tabindex="0">Contact Us</h2>
+                <form aria-label="Contact form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" aria-required="true" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" aria-required="true" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" aria-required="true" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Formula One Season</p>
+        </footer>
+    </body>
+    </html>
