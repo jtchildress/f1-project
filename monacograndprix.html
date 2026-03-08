@@ -1,20 +1,25 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monaco Grand Prix</title>
-    <style>
-        .skip-link { position: absolute; left: -999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
-        .skip-link:focus { left: 0; width: auto; height: auto; padding: 8px; background: #000; color: #fff; z-index: 1000; }
-        img { max-width: 100%; height: auto; }
-    </style>
-</head>
-<body>
-
-<main id="main-content" role="main">
-    <h1>Monaco Grand Prix</h1>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Monaco Grand Prix</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav aria-label="Main Navigation">
+                <ul>
+                    <li><a href="#about" accesskey="a">About</a></li>
+                    <li><a href="#schedule" accesskey="s">Schedule</a></li>
+                    <li><a href="#contact" accesskey="c">Contact</a></li>
+                </ul>
+            </nav>
+            <h1 tabindex="0">Monaco Grand Prix</h1>
+        </header>
+        <main>
+            <section id="about">
+                <h2 tabindex="0">About the race</h2>
 <p>
 the moanco grand prix is not a important race in the 2025 calendar but it is an important race for formuala one as a whole as the probably most famous lap of formula one is when arton senna did his qualifying lap.
 monaco has the closest barries of any race which means basicsally no overtaking but also means that most of the drivers are only one mistake away from going into the barriers.</p>
@@ -51,5 +56,21 @@ monaco has the closest barries of any race which means basicsally no overtaking 
     <li>Fernando Alonso - Engine</li>
     <li>Pierre Gasly - Collision</li>
 </ul>
-</body>
-</html>
+<section id="contact">
+                <h2 tabindex="0">Contact Us</h2>
+                <form aria-label="Contact form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" aria-required="true" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" aria-required="true" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" aria-required="true" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Monaco Grand Prix</p>
+        </footer>
+    </body>
+    </html>
