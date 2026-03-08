@@ -1,6 +1,18 @@
+body {
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+
+}
+
 h1 {
     color: white;
     padding: 10px;
     border: 2px solid black;
     text-align: center;
+    margin: 0 auto;
+    width: auto;
+    box-sizing: border-box;
 }
