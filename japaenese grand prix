@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Grand Prix 2025</title>
+    <style>
+        .skip-link { position: absolute; left: -999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+        .skip-link:focus { left: 0; width: auto; height: auto; padding: 8px; background: #000; color: #fff; z-index: 1000; }
+        img { max-width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <main id="main-content" role="main">
+        <h1>Japanese Grand Prix</h1>
+        <img src="https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_scale,w_640/v1/media/gmg/DJUC2GVGS5FGHKIXWW5SSCF5KE.jpg?_a=DAJHqpE+ZAAA" alt="Japanese Grand Prix">
+        <p>Max Verstappen took pole position and kept the lead for most of the race, which had Kimi Antonelli leading for a little bit, making him the youngest driver ever to lead a race. But Max Verstappen took back the lead and ended up winning the race over the two McLarens. This race, Yuki Tsunoda took over the second seat at the main Red Bull team and Liam Lawson got demoted.</p>
+        <h2>Race Times</h2>
+        <ul>
+            <li>1. Lando Norris - 1:42:06.304</li>
+            <li>2. Max Verstappen - +0.895</li>
+            <li>3. George Russell - +8.481</li>
+            <li>4. Kimi Antonelli - +10.135</li>
+            <li>5. Alexander Albon - +12.773</li>
+            <li>6. Lance Stroll - +17.413</li>
+            <li>7. Nico Hülkenberg - +18.423</li>
+            <li>8. Charles Leclerc - +19.826</li>
+            <li>9. Oscar Piastri - +20.448</li>
+            <li>10. Lewis Hamilton - +22.473</li>
+            <li>11. Pierre Gasly - +26.502</li>
+            <li>12. Yuki Tsunoda - +29.884</li>
+            <li>13. Esteban Ocon - +33.161</li>
+            <li>14. Oliver Bearman - +40.351</li>
+            <li>Ret. Liam Lawson - Accident</li>
+            <li>Ret. Gabriel Bortoleto - Accident</li>
+            <li>Ret. Fernando Alonso - Accident</li>
+            <li>Ret. Carlos Sainz Jr. - Accident</li>
+            <li>Ret. Jack Doohan - Accident</li>
+            <li>DNS. Isack Hadjar - Accident</li>
+        </ul>
+    </main>
+</body>
+</html>
